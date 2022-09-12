@@ -4,11 +4,10 @@ flag = False
 
 print(f'{user_name} your current salary is {salary}')
 
-
 new_salary = input("How much would you like to increase it by?")
 print(f'Haha \N{face with tears of joy} No')
 
-while flag == False:
+while True:
     new_salary = input("How much would you like to increase it by?")
 
     if((int(new_salary)/int(salary)) > 0.05):
