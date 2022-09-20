@@ -17,7 +17,8 @@ class App:
     def __init__(self):
         self.run = False
         self.main_menu_commands = {1: self.cmd_single_player,
-                                   2: self.cmd_multiplayer, 3: self.quit}
+                                   2: self.cmd_multiplayer, 
+                                   3: self.quit}
 
     def setup(self, options):
         print(f'fake setup for {options}')
